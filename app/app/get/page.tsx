@@ -50,9 +50,7 @@ async function SmartDownload() {
   const notice =
     kind === "android"
       ? "This is an Android device, and the Play Store link has not been published yet."
-      : kind === "apple"
-        ? "This is an iPhone or iPad, and the App Store link has not been published yet."
-        : null;
+      : null;
 
   return (
     <div className="mx-auto grid max-w-6xl items-start gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] lg:py-24">
